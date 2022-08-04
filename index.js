@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="myscripts.js"></script> <!--link my js file -->
-        <script type="text/javascript">
-            var picPaths = ['https://www.karibuloo.co.ke/wp-content/uploads/2022/02/20191113-FB_IMG_15736396152431401-1-200x300.jpg',
+var picPaths = ['https://www.karibuloo.co.ke/wp-content/uploads/2022/02/20191113-FB_IMG_15736396152431401-1-200x300.jpg',
                             'https://www.karibuloo.co.ke/wp-content/uploads/2017/03/Supporitng-Kids-300x200.jpg',
                             'pic3.jpg'];
             var curPic = -1;
@@ -28,14 +19,3 @@
                 imgCont = document.getElementById('imgBanner');
                 swapImage();
             }
-        </script>
-
-    </head>
-    <body>
-
-        <div>
-            <img id="imgBanner" src="" alt="" />
-        </div>
-<a style="color: black;" href="https://www.karibuloo.co.ke/request-a-quote/">Reqeuest a Quote</a>
-    </body>
-</html>
